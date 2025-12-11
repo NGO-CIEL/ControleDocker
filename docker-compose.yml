@@ -8,3 +8,12 @@ services:
       - ./VolumesMosquitto/config:/mosquitto/config
       - ./VolumesMosquitto/data:/mosquitto/data
       - ./VolumesMosquitto/log:/mosquitto/log
+
+
+  mqtt_clientweb:
+    image: emqx/mqttx-web
+    container_name: mqtt_mqttx-web
+    ports:
+      - "8082:80"     # Port hôte 8082 vers port 80 du conteneur
+    depends_on:
+      - mqtt_broker   # Démarre après le broker MQTT
