@@ -2342,3 +2342,72 @@
 1765449878: Opening ipv6 listen socket on port 1883.
 1765449878: Opening websockets listen socket on port 9005.
 1765449878: mosquitto version 2.0.22 running
+1765450371: New client connected from ::ffff:172.21.0.1:33348 as mqttx_707bbe7f (p5, c1, k60).
+1765450371: No will message specified.
+1765450371: Sending CONNACK to mqttx_707bbe7f (0, 0)
+1765450372: Received SUBSCRIBE from mqttx_707bbe7f
+1765450372: 	BTS/# (QoS 0)
+1765450372: mqttx_707bbe7f 0 BTS/#
+1765450372: Sending SUBACK to mqttx_707bbe7f
+1765450374: Received PUBLISH from mqttx_707bbe7f (d0, q0, r0, m0, 'BTS', ... (17 bytes))
+1765450374: Sending PUBLISH to mqttx_707bbe7f (d0, q0, r0, m0, 'BTS', ... (17 bytes))
+1765450434: Received PINGREQ from mqttx_707bbe7f
+1765450434: Sending PINGRESP to mqttx_707bbe7f
+1765450494: Received PINGREQ from mqttx_707bbe7f
+1765450494: Sending PINGRESP to mqttx_707bbe7f
+1765450554: Received PINGREQ from mqttx_707bbe7f
+1765450554: Sending PINGRESP to mqttx_707bbe7f
+1765450615: Received PINGREQ from mqttx_707bbe7f
+1765450615: Sending PINGRESP to mqttx_707bbe7f
+1765450674: New connection from ::1:38850 on port 1883.
+1765450674: New client connected from ::1:38850 as auto-BCF33884-70F7-64AC-59D7-59D8A681F838 (p2, c1, k60).
+1765450674: No will message specified.
+1765450674: Sending CONNACK to auto-BCF33884-70F7-64AC-59D7-59D8A681F838 (0, 0)
+1765450674: Received SUBSCRIBE from auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450674: 	# (QoS 0)
+1765450674: auto-BCF33884-70F7-64AC-59D7-59D8A681F838 0 #
+1765450674: Sending SUBACK to auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450675: Received PINGREQ from mqttx_707bbe7f
+1765450675: Sending PINGRESP to mqttx_707bbe7f
+1765450685: Received PUBLISH from mqttx_707bbe7f (d0, q0, r0, m0, 'BTS', ... (17 bytes))
+1765450685: Sending PUBLISH to mqttx_707bbe7f (d0, q0, r0, m0, 'BTS', ... (17 bytes))
+1765450685: Sending PUBLISH to auto-BCF33884-70F7-64AC-59D7-59D8A681F838 (d0, q0, r0, m0, 'BTS', ... (17 bytes))
+1765450734: Received PINGREQ from auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450734: Sending PINGRESP to auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450745: Received PINGREQ from mqttx_707bbe7f
+1765450745: Sending PINGRESP to mqttx_707bbe7f
+1765450794: Received PINGREQ from auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450794: Sending PINGRESP to auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450805: Received PINGREQ from mqttx_707bbe7f
+1765450805: Sending PINGRESP to mqttx_707bbe7f
+1765450854: Received PINGREQ from auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450854: Sending PINGRESP to auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450865: Received PINGREQ from mqttx_707bbe7f
+1765450865: Sending PINGRESP to mqttx_707bbe7f
+1765450914: Received PINGREQ from auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450914: Sending PINGRESP to auto-BCF33884-70F7-64AC-59D7-59D8A681F838
+1765450925: Received PINGREQ from mqttx_707bbe7f
+1765450925: Sending PINGRESP to mqttx_707bbe7f
+1765450957: mosquitto version 2.0.22 terminating
+1765450957: Client mqttx_707bbe7f closed its connection.
+1765450963: mosquitto version 2.0.22 starting
+1765450963: Config loaded from /mosquitto/config/mosquitto.conf.
+1765450963: Opening ipv4 listen socket on port 1883.
+1765450963: Opening ipv6 listen socket on port 1883.
+1765450963: Opening websockets listen socket on port 9005.
+1765450963: mosquitto version 2.0.22 running
+1765450963: New client connected from ::ffff:172.21.0.1:50300 as mqttx_707bbe7f (p5, c1, k60).
+1765450963: No will message specified.
+1765450963: Sending CONNACK to mqttx_707bbe7f (0, 0)
+1765450963: Received SUBSCRIBE from mqttx_707bbe7f
+1765450963: 	BTS/# (QoS 0)
+1765450963: mqttx_707bbe7f 0 BTS/#
+1765450963: Sending SUBACK to mqttx_707bbe7f
+1765450965: New connection from 172.21.0.4:35480 on port 1883.
+1765450965: New client connected from 172.21.0.4:35480 as auto-0E6CF8C6-70F7-9DDE-5BD6-86EDA369811E (p2, c1, k60).
+1765450965: No will message specified.
+1765450965: Sending CONNACK to auto-0E6CF8C6-70F7-9DDE-5BD6-86EDA369811E (0, 0)
+1765450965: Received SUBSCRIBE from auto-0E6CF8C6-70F7-9DDE-5BD6-86EDA369811E
+1765450965: 	# (QoS 0)
+1765450965: auto-0E6CF8C6-70F7-9DDE-5BD6-86EDA369811E 0 #
+1765450965: Sending SUBACK to auto-0E6CF8C6-70F7-9DDE-5BD6-86EDA369811E
